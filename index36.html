@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Const-->
+
+    <h2>Aopa</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        //Criação do Objeto:
+        const carro = {tipo:"Fiat", modelo:"500", cor:"branco"};
+
+        //Mude uma propriedade:
+        carro.cor = "verde";
+
+        //Crie uma propriedade:
+        carro.dono = "Johnson";
+
+        document.getElementById("demo").innerHTML = "O dono do carro é: " + carro.dono;
+    </script>
+</body>
+</html>
